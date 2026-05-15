@@ -9,6 +9,10 @@ int main(){
       char name[20];
       printf("Enter your name: ");
       scanf("%[^\n]",&name);
+      
+      int age;
+      printf("Enter your age: ");
+      scanf("%d",age);
 
       printf("Welcone %s\n", name);
 
