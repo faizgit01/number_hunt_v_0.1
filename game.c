@@ -4,7 +4,17 @@
 #include <time.h>
 int main(){
 
-      printf("Guess the Number\n");
+      printf("welcome to number hunt\n");
+
+      char name[20];
+      printf("Enter your name: ");
+      scanf("%[^\n]",&name);
+
+      printf("Welcone %s\n", name);
+
+      printf("You can play now:)\n");
+
+  
    
     int numb;
     int random;
