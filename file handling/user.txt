@@ -1,0 +1,1 @@
+Name: faiz            Age: 19    City: kanpur      salary: 2500 
