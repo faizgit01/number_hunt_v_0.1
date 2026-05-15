@@ -1,4 +1,0 @@
-Account holder name: faiz
-Account Number: 200
-Balance: 200.00
-Pin: 200
