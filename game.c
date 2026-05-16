@@ -18,8 +18,6 @@ int main(){
 
       printf("You can play now:)\n");
 
-  
-   
     int numb;
     int random;
   
