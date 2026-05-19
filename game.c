@@ -32,9 +32,20 @@ int main(){
 
       int ran = rand() %10;
 
-     printf("Guess number between (0-9): ");
-            scanf("%d", &numb);
+      while(1){
+          printf("Guess number between (0-9): ");
+          if(scanf("%d", &numb) != 1){
+            printf("invalid input!\n");
+            printf("please enter a valid number..\n");
+             while(getchar() !='\n');
+             continue;
+          }
 
+          if(numb >=0 && numb<=9){
+            break;
+          } 
+          
+      }    
             printf("result: %d\n", ran);
 
             if(numb == ran){
