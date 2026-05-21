@@ -1,2 +1,8 @@
-Number hunt_0.1 <br>
-By _faiz_
+# Number Hunt v0.2 
+A basic number guessing game written in C.
+## Features
+- Random number generation
+- User friendly gameplay
+- Multiple difficulty mode
+## Author
+Faiz
